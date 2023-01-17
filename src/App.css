@@ -1,0 +1,67 @@
+.section{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.main-heading{
+  color: rgb(204,18,18);
+  font-size: 26px;
+}.underline{
+  height: 4px;
+  width:  50px;
+  background-color:#f76c2f;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.bg-c-light{
+  background-color: #f2f2f2;
+}
+p{
+  font-size: 16px;
+  color:#262626;
+}
+.footer a{
+  color:#fff;
+  text-decoration: none !important;
+
+}
+.footer a:hover{
+  color:gray;
+}
+.card1{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+video{
+  object-fit: cover;
+  height:100%;
+  width:100%;
+  position: relative;
+  text-align: center;
+  color: white;
+  z-index:-1;
+  
+}
+.inner-div{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+.inner-div .h1,p{
+  color: gray !important;
+}
+.floating{
+  animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+ 
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }   
+}
+
